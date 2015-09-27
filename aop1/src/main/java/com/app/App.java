@@ -17,6 +17,8 @@ public class App
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(Config1.class);
         StageImpl cd = ctx.getBean(StageImpl.class);
         cd.perform();
+        
+        System.out.println("Test 1");
        
     }
 }
